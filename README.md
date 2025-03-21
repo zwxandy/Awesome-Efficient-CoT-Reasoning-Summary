@@ -1,6 +1,6 @@
 # Awesome-Efficient-CoT-Reasoning-Summary
 
-🔥 Chain-of-thought (CoT) has become a crucial technique for accurate and explainable LLM reasoning!
+🔥 Recently, chain-of-thought (CoT) has become a crucial technique for accurate and explainable LLM reasoning! DeepSeek-R1 and OpenAI o1 demonstrate powerful reasoning ability with CoT.
 
 ✅ Many research efforts have been made to generate longer and more detailed thoughts before generating the final answer (the figure below shows the simple evidence of CoT lengthening).
 
