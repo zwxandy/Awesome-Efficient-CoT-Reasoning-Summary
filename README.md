@@ -20,8 +20,8 @@
 | [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/pdf/2503.05179) | arXiv 2025.3.7 | [code](https://github.com/SimonAytes/SoT) | Design a prompting method with 3 paradigms and train a router to select. |
 | [Break the Chain: Large Language Models Can be Shortcut Reasoners](https://arxiv.org/pdf/2406.06580v1) | arXiv 2024.6.4 | x | Propose zero-shot prompting strategies to encourage the use of shortcuts. Introduce ShortcutQA, a dataset designed to evaluate reasoning through shortcuts. |
 | [Token-Budget-Aware LLM Reasoning](https://arxiv.org/pdf/2412.18547) | arXiv 2025.2.17 | [code](https://github.com/GeniusHTX/TALE) | Use LLM to estimate the optimal CoT budget and then use prompt to generate shorter CoT. |
-| [How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach]() | arXiv 2025.3.3 | [code](https://github.com/Compressed-CoT/compressed-cot) | Find the relationship between CoT length and accuracy and; there is an intrinsic shortest CoT for successfully solving each task. |
-| [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models]() | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
+| [How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach](https://arxiv.org/pdf/2503.01141) | arXiv 2025.3.3 | [code](https://github.com/Compressed-CoT/compressed-cot) | Find the relationship between CoT length and accuracy and; there is an intrinsic shortest CoT for successfully solving each task. |
+| [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/pdf/2502.13260) | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
 
 ## Latent-space CoT Reasoning
 
@@ -39,13 +39,13 @@
 
 | Title | Publish | Code |  Method |
 |-----|-----|-----|-----|
-| [C3oT: Generating Shorter Chain-of-Thought without Compromising Effectiveness]() | AAAI 2025 | x | To construct the training dataset, use GPT-4 to compress CoT, and pair "long/short" prompts with original/compressed CoTs. |
+| [C3oT: Generating Shorter Chain-of-Thought without Compromising Effectiveness](https://arxiv.org/pdf/2412.11664) | AAAI 2025 | x | To construct the training dataset, use GPT-4 to compress CoT, and pair "long/short" prompts with original/compressed CoTs. |
 | [TokenSkip: Controllable Chain-of-Thought Compression in LLMs](https://arxiv.org/pdf/2502.12067) | arXiv 2025.2.17 | [code](https://github.com/hemingkx/TokenSkip) | Use bidirectional model to compress CoTs with different compression ratios, and pair the prompts (added with compression ratios) with compressed CoTs.  |
 | [Token-Budget-Aware LLM Reasoning](https://arxiv.org/pdf/2412.18547) | arXiv 2025.2.17 | [code](https://github.com/GeniusHTX/TALE) | Use a search algorithm to estimate the optimal CoT budget and then use prompt to generate shorter CoT. Use SFT or DPO to train the LLM. |
 | [LightThinker: Thinking Step-by-Step Compression](https://arxiv.org/pdf/2502.15589) | arXiv 2025.2.21 | [code](https://github.com/zjunlp/LightThinker) | Dynamically compress intermediate thoughts during reasoning. It is achieved by training the model on when and how to perform compression through data construction, mapping hidden states to condensed gist tokens. |
 | [CoT-Valve: Length-Compressible Chain-of-Thought Tuning](https://arxiv.org/pdf/2502.09601) | arXiv 2025.2.13 | [code](https://github.com/horseee/CoT-Valve) | Train extra LoRA weights to control the CoT compression ratio with a hyper-parameter $\alpha$. |
 | [Self-Training Elicits Concise Reasoning in Large Language Models](https://arxiv.org/pdf/2502.20122) | arXiv 2025.2.28 | [code](https://github.com/TergelMunkhbat/concise-reasoning) | Finetune LLMs by leveraging self-generated concise reasoning paths obtained by best-of-N sampling and few-shot conditioning. |
-| [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models]() | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
+| [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/pdf/2502.13260) | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
 | [Can Language Models Learn to Skip Steps?](https://arxiv.org/pdf/2411.01855) | NeurIPS 2024 | [code](https://github.com/tengxiaoliu/LM_skip) | Iteratively train models to generate shorter and accurate reasoning paths. |
 
 ## Inference-time CoT Compression
