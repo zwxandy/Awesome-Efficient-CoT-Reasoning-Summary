@@ -1,15 +1,19 @@
 # Awesome-Efficient-CoT-Reasoning-Summary
 
-🔥 Chain-of-thought (CoT) has become a crucial technique for accurate LLM reasoning!
+🔥 Chain-of-thought (CoT) has become a crucial technique for accurate and explainable LLM reasoning!
 
-✅ Many research efforts have been made to generate longer and more detailed thoughts before generating the final answer.
+✅ Many research efforts have been made to generate longer and more detailed thoughts before generating the final answer (the figure below shows the simple evidence of CoT lengthening).
 
-❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs while maintaining the reasoning performance is an important topic!
+❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs during inference while maintaining the reasoning performance is an important topic!
+
+👀 In this repo, I track the hotspots of efficient CoT reasoning, and more importantly, I also summarize the main contribution or method of these works.
+
+😊 If I leave out any important papers, please let me know and I will include them as soon as possible.
+I will actively maintain the repo for our brainstorming in this field.
 
 ![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
 
-
-**Content**
+## Content
 * [Prompting-guided CoT Compression](#prompting-guided-cot-compression)
 * [Latent-space CoT Reasoning](#latent-space-cot-reasoning)
 * [Training-internized CoT Compression](#training-internized-cot-compression)
@@ -71,3 +75,4 @@
 | Title | Publish | Code |  Method |
 |-----|-----|-----|-----|
 | [To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning](https://arxiv.org/pdf/2409.12183) | arXiv 2024.10.29 | [code](https://github.com/Zayne-sprague/To-CoT-or-not-to-CoT) | CoT gives strong performance benefits primarily on tasks involving math or logic, with much smaller gains on other types of tasks. |
+| [How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach](https://arxiv.org/pdf/2503.01141) | arXiv 2025.3.3 | [code](https://github.com/Compressed-CoT/compressed-cot) | Find the relationship between CoT length and accuracy and; there is an intrinsic shortest CoT for successfully solving each task. |
