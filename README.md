@@ -8,6 +8,14 @@
 
 ![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
 
+**Content**
+* [Prompting-guided CoT Compression](#prompting-guided-cot-compression)
+* [Latent-space CoT Reasoning](#latent-space-cot-reasoning)
+* [Training-internized CoT Compression](#training-internized-cot-compression)
+* [Inference-time CoT Compression](#inference-time-cot-compression)
+* [Analysis of CoT Compression](#analysis-of-cot-compression)
+
+
 
 ## Prompting-guided CoT Compression
 
