@@ -6,6 +6,9 @@
 
 ❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs while maintaining the reasoning performance is an important topic!
 
+![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
+
+
 ## Prompting-guided CoT Compression
 
 > This method directly uses prompts (or few-shot examples) to guide LLMs to generate concise CoT. It does not require model training, but may suffer from bad interpretability, limited CoT compression ratio, and poor reasoning performance.
