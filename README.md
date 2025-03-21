@@ -4,9 +4,11 @@
 
 ✅ Many research efforts have been made to generate longer and more detailed thoughts before generating the final answer (the figure below shows the simple evidence of CoT lengthening).
 
+👀 We can observe that the redundant reasoning steps are widespread. Also, recent research has found the overthinking phenomenon in CoT, which can be further improved.
+
 ❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs during inference while maintaining the reasoning performance is an important topic!
 
-👀 In this repo, I track the hotspots of efficient CoT reasoning, and more importantly, I also summarize the main contribution or method of these works.
+🎯 In this repo, I track the hotspots of efficient CoT reasoning, and more importantly, I also summarize the main contribution or method of these works.
 
 😊 If I leave out any important papers, please let me know and I will include them as soon as possible.
 I will actively maintain the repo for our brainstorming in this field.
