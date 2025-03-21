@@ -1,5 +1,11 @@
 # Efficient-CoT-Reasoning
 
+🔥 Chain-of-thought (CoT) has become a crucial technique for accurate LLM reasoning!
+
+✅ Many research efforts have been made to generate longer and more detailed thoughts before generating the final answer.
+
+❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs while maintaining the reasoning performance is an important topic!
+
 ## Prompting-guided CoT Compression
 
 > This method directly uses prompts (or few-shot examples) to guide LLMs to generate concise CoT. It does not require model training, but may suffer from bad interpretability, limited CoT compression ratio, and poor reasoning performance.
