@@ -1,4 +1,4 @@
-# Efficient-CoT-Reasoning
+# Awesome-Efficient-CoT-Reasoning-Summary
 
 🔥 Chain-of-thought (CoT) has become a crucial technique for accurate LLM reasoning!
 
@@ -7,6 +7,7 @@
 ❓ How to efficiently and effectively compress the CoTs or directly generate concise CoTs while maintaining the reasoning performance is an important topic!
 
 ![image](https://github.com/zwxandy/Efficient-CoT-Reasoning/blob/main/long_cot.png)
+
 
 **Content**
 * [Prompting-guided CoT Compression](#prompting-guided-cot-compression)
