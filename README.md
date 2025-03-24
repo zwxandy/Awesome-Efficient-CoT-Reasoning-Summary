@@ -84,3 +84,9 @@ I will actively maintain the repo for our brainstorming in this field.
 |-----|-----|-----|-----|
 | [To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning](https://arxiv.org/pdf/2409.12183) | arXiv 2024.10.29 | [code](https://github.com/Zayne-sprague/To-CoT-or-not-to-CoT) | CoT gives strong performance benefits primarily on tasks involving math or logic, with much smaller gains on other types of tasks. |
 | [How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach](https://arxiv.org/pdf/2503.01141) | arXiv 2025.3.3 | [code](https://github.com/Compressed-CoT/compressed-cot) | Find the relationship between CoT length and accuracy and; there is an intrinsic shortest CoT for successfully solving each task. |
+
+## Multimodal CoT Reasoning
+| Title | Publish | Code |  Method |
+|-----|-----|-----|-----|
+| [Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering](https://arxiv.org/pdf/2209.09513) | NeurIPS 2022 | [code](https://scienceqa.github.io) | A benchmark of Science Question Answering (ScienceQA) that consists of multimodal multiple choice questions with annotations of answers with lectures and explanations. |
+| [Interleaved-Modal Chain-of-Thought](https://arxiv.org/pdf/2411.19488) | arXiv 2025.3.17 | [code](https://github.com/jungao1106/ICoT) | Generate interleaved-modal chain-of-thought (ICoT) with paired visual and textual information. Consider that the immediate visual information is usually part of the input image rather than generating extra image, and use an attention-based method to select a few visual tokens. |
