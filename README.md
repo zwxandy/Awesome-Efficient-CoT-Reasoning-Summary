@@ -23,7 +23,6 @@ I will actively maintain the repo for our brainstorming in this field.
 * [Inference-time CoT Compression](#inference-time-cot-compression)
 * [Analysis of CoT Compression](#analysis-of-cot-compression)
 
-
 ## Recent Survey
 
 * [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/pdf/2503.16419), arXiv 2025.3.20, [repo](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs)
