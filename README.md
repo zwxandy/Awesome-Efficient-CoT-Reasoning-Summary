@@ -67,7 +67,7 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Self-Training Elicits Concise Reasoning in Large Language Models](https://arxiv.org/pdf/2502.20122) | arXiv 2025.2.28 | [code](https://github.com/TergelMunkhbat/concise-reasoning) | Finetune LLMs by leveraging self-generated concise reasoning paths obtained by best-of-N sampling and few-shot conditioning. |
 | [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/pdf/2502.13260) | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
 | [Can Language Models Learn to Skip Steps?](https://arxiv.org/pdf/2411.01855) | NeurIPS 2024 | [code](https://github.com/tengxiaoliu/LM_skip) | Iteratively train models to generate shorter and accurate reasoning paths. |
-| [O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning](https://arxiv.org/pdf/2501.12570) | arXiv 2025.1.29 | [code](https://github.com/StarDewXXX/O1-Pruner) |  |
+| [O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning](https://arxiv.org/pdf/2501.12570) | arXiv 2025.1.29 | [code](https://github.com/StarDewXXX/O1-Pruner) | Two observations: 1) the relationship between length and accuracy varies significantly across problems, and high accuracy often persists in shorter lengths; 2) there is a consistent trend where shorter response lengths are associated with higher average accuracy rates. Use pre-sampling for each question and then use RL-style fine-tuning to encourage the model to generate shorter reasoning processes.  |
 
 ## Inference-time CoT Compression
 
