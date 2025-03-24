@@ -23,8 +23,8 @@ I will actively maintain the repo for our brainstorming in this field.
 * [Inference-time CoT Compression](#inference-time-cot-compression)
 * [Analysis of CoT Compression](#analysis-of-cot-compression)
 
-## Recent Survey
 
+## Recent Survey
 * [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/pdf/2503.16419), arXiv 2025.3.20, [repo](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs)
 
 
@@ -50,7 +50,7 @@ I will actively maintain the repo for our brainstorming in this field.
 |-----|-----|-----|-----|
 | [CODI: Compressing Chain-of-Thought into Continuous Space via Self-Distillation](https://arxiv.org/pdf/2502.21074) | arXiv 2025.2.28 | x | Use standard CoT method to supervise the latent reasoning with hidden state distillation. |
 | [SoftCoT: Soft Chain-of-Thought for Efficient Reasoning with LLMs](https://arxiv.org/pdf/2502.12134) | arXiv 2025.2.17 | / | Use a small model to generate a few latent tokens as the initial thoughts for LLM inference. Train a linear projection layer to align the representation space between two models.  |
-| [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201) | arXiv 2025.1.31 | [code](https://github.com/shawnricecake/Heima) | For Multimodal LLMs, design a Encoder to condense each intermediate CoT into a single thinking token. Also design a Decoder to reconstruct reasoning processes that closely resemble the original CoTs. |
+| [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201) ![image](https://img.shields.io/badge/Multimodal-orange) | arXiv 2025.1.31 | [code](https://github.com/shawnricecake/Heima) | For Multimodal LLMs, design a Encoder to condense each intermediate CoT into a single thinking token. Also design a Decoder to reconstruct reasoning processes that closely resemble the original CoTs. |
 
 ## Training-internized CoT Compression
 
@@ -84,8 +84,9 @@ I will actively maintain the repo for our brainstorming in this field.
 | [To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning](https://arxiv.org/pdf/2409.12183) | arXiv 2024.10.29 | [code](https://github.com/Zayne-sprague/To-CoT-or-not-to-CoT) | CoT gives strong performance benefits primarily on tasks involving math or logic, with much smaller gains on other types of tasks. |
 | [How Well do LLMs Compress Their Own Chain-of-Thought? A Token Complexity Approach](https://arxiv.org/pdf/2503.01141) | arXiv 2025.3.3 | [code](https://github.com/Compressed-CoT/compressed-cot) | Find the relationship between CoT length and accuracy and; there is an intrinsic shortest CoT for successfully solving each task. |
 
-## Multimodal CoT Reasoning
+## Multimodal CoT Reasoning ![image](https://img.shields.io/badge/Multimodal-orange)
 | Title | Publish | Code |  Method |
 |-----|-----|-----|-----|
 | [Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering](https://arxiv.org/pdf/2209.09513) | NeurIPS 2022 | [code](https://scienceqa.github.io) | A benchmark of Science Question Answering (ScienceQA) that consists of multimodal multiple choice questions with annotations of answers with lectures and explanations. |
 | [Interleaved-Modal Chain-of-Thought](https://arxiv.org/pdf/2411.19488) | arXiv 2025.3.17 | [code](https://github.com/jungao1106/ICoT) | Generate interleaved-modal chain-of-thought (ICoT) with paired visual and textual information. Consider that the immediate visual information is usually part of the input image rather than generating extra image, and use an attention-based method to select a few visual tokens. |
+| [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201) | arXiv 2025.1.31 | [code](https://github.com/shawnricecake/Heima) | For Multimodal LLMs, design a Encoder to condense each intermediate CoT into a single thinking token. Also design a Decoder to reconstruct reasoning processes that closely resemble the original CoTs. |
