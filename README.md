@@ -78,6 +78,7 @@ I will actively maintain the repo for our brainstorming in this field.
 |-----|-----|-----|-----|
 | [Entropy-based Exploration Conduction for Multi-step Reasoning](https://arxiv.org/pdf/2503.15848) | arXiv 2025.3.20 | x | Use entropy of reasoning steps to select whether to deepen, expand or stop exploration. |
 | [Efficient Long-Decoding Inference with Reasoning-Aware Attention Sparsity](https://arxiv.org/pdf/2502.11147) | arXiv 2025.2.16 | x | Identify a new attention pattern during the decoding stage of reasoning tasks, which is similar to KV cache compression like H2O. |
+| [$\phi$-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation](https://arxiv.org/pdf/2503.13288) | arXiv 2025.3.17 | [code](https://github.com/xufangzhi/phi-Decoding) |  |
 
 ## Analysis of CoT Compression 
 
