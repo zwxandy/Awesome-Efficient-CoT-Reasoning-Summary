@@ -26,6 +26,7 @@ I will actively maintain the repo for our brainstorming in this field.
 
 ## Recent Survey
 * [Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://arxiv.org/pdf/2503.16419), arXiv 2025.3.20, [repo](https://github.com/Eclipsess/Awesome-Efficient-Reasoning-LLMs)
+* [Harnessing the Reasoning Economy: A Survey of Efficient Reasoning for Large Language Models](https://arxiv.org/pdf/2503.24377v1), arXiv 2025.3.31, [repo](https://github.com/DevoAllen/Awesome-Reasoning-Economy-Papers)
 
 
 ## Prompting-guided CoT Compression
