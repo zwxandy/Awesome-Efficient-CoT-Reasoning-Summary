@@ -36,6 +36,7 @@ I will actively maintain the repo for our brainstorming in this field.
 
 | Title | Publish | Code |  Method |
 |-----|-----|-----|-----|
+| [Syzygy of Thoughts: Improving LLM CoT with the Minimal Free Resolution](https://arxiv.org/pdf/2504.09566) | arXiv 2025.4.13 | [code](https://github.com/dlMARiA/Syzygy-of-thoughts) | Syzygy of Thoughts (SoT) is a reasoning framework inspired by Minimal Free Resolution (MFR), which systematically decomposes complex problems into minimal, logically complete subproblems by introducing interrelated auxiliary chains of thought.|
 | [Chain of Draft: Thinking Faster by Writing Less](https://arxiv.org/pdf/2502.18600) | arXiv 2025.2.25 | [code](https://github.com/sileix/chain-of-draft) | Use prompt "with 5 words at most". |
 | [Skeleton-of-Thought: Prompting LLMs for Efficient Parallel Generation](https://arxiv.org/pdf/2307.15337) | ICLR 2024 | [code](https://github.com/imagination-research/sot) | Use prompts to generate the skeleton and then complete each point in parallel. Train a router to decide which question to use SoT. |
 | [Sketch-of-Thought: Efficient LLM Reasoning with Adaptive Cognitive-Inspired Sketching](https://arxiv.org/pdf/2503.05179) | arXiv 2025.3.7 | [code](https://github.com/SimonAytes/SoT) | Design a prompting method with 3 paradigms and train a router to select. |
