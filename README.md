@@ -105,5 +105,11 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/pdf/2406.09403) | NeurIPS 2024 | [code](https://visualsketchpad.github.io) | For mathematical tasks, use Python packages like matplotlib and networkx for plotting; For vision tasks, leverage specialist vision models (e.g., detection tools, segmentation and marking tools) |
 | [Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings](https://arxiv.org/pdf/2305.02317) | arXiv 2024.1.23 | [code](https://github.com/dannyrose30/VCOT) | Leverage prompting to recursively bridge the logical gaps within sequential data. Use visual guidance to generate synthetic multimodal infillings that add consistent and novel information. |
 | [Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models](https://arxiv.org/pdf/2405.13872) | arXiv 2024.5.29 | x | First, use MLLM to design the visual and textual steps (planing), guiding the model to utilize external image processing tools to generate a multimodal rationale (action). |
+| [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/pdf/2501.07542) | arXiv 2025.1.13 | [code](https://thegenerality.com/agi/) | |
+
 
 ## Chain of Model
+| Title | Publish | Code |  Method |
+|-----|-----|-----|-----|
+| [Chain-of-Model Learning for Language Model](https://arxiv.org/pdf/2505.11820) | arXiv 2025.5.17 | [code](https://github.com/microsoft/CoLM) |  |
+
