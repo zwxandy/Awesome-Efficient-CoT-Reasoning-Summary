@@ -22,6 +22,7 @@ I will actively maintain the repo for our brainstorming in this field.
 * [Training-internized CoT Compression](#training-internized-cot-compression)
 * [Inference-time CoT Compression](#inference-time-cot-compression)
 * [Analysis of CoT Compression](#analysis-of-cot-compression)
+* [Chain of Model](#chain-of-model)
 
 
 ## Recent Survey
@@ -101,3 +102,8 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Interleaved-Modal Chain-of-Thought](https://arxiv.org/pdf/2411.19488) | arXiv 2025.3.17 | [code](https://github.com/jungao1106/ICoT) | Generate interleaved-modal chain-of-thought (ICoT) with paired visual and textual information. Consider that the immediate visual information is usually part of the input image rather than generating extra image, and use an attention-based method to select a few visual tokens. |
 | [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201) | arXiv 2025.1.31 | [code](https://github.com/shawnricecake/Heima) | For Multimodal LLMs, design a Encoder to condense each intermediate CoT into a single thinking token. Also design a Decoder to reconstruct reasoning processes that closely resemble the original CoTs. |
 | [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/pdf/2503.10639) | arXiv 2025.3.13 | [code](https://github.com/rongyaofang/GoT) | Transform input prompts into explicit reasoning chains with coordinates for semantic-spatial reasoning. |
+| [Visual Sketchpad: Sketching as a Visual Chain of Thought for Multimodal Language Models](https://arxiv.org/pdf/2406.09403) | NeurIPS 2024 | [code](https://visualsketchpad.github.io) | For mathematical tasks, use Python packages like matplotlib and networkx for plotting; For vision tasks, leverage specialist vision models (e.g., detection tools, segmentation and marking tools) |
+| [Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings](https://arxiv.org/pdf/2305.02317) | arXiv 2024.1.23 | [code](https://github.com/dannyrose30/VCOT) | Leverage prompting to recursively bridge the logical gaps within sequential data. Use visual guidance to generate synthetic multimodal infillings that add consistent and novel information. |
+| [Image-of-Thought Prompting for Visual Reasoning Refinement in Multimodal Large Language Models](https://arxiv.org/pdf/2405.13872) | arXiv 2024.5.29 | x | First, use MLLM to design the visual and textual steps (planing), guiding the model to utilize external image processing tools to generate a multimodal rationale (action). |
+
+## Chain of Model
