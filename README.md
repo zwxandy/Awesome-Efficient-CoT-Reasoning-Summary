@@ -73,6 +73,8 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Stepwise Perplexity-Guided Refinement for Efficient Chain-of-Thought Reasoning in Large Language Models](https://arxiv.org/pdf/2502.13260) | arXiv 2025.2.28 | x | Use PPL to identify critical reasoning steps. Refine demonstration examples in few-shot CoT or finetuning the model using selected examples that include only critical steps. |
 | [Can Language Models Learn to Skip Steps?](https://arxiv.org/pdf/2411.01855) | NeurIPS 2024 | [code](https://github.com/tengxiaoliu/LM_skip) | Iteratively train models to generate shorter and accurate reasoning paths. |
 | [O1-Pruner: Length-Harmonizing Fine-Tuning for O1-Like Reasoning Pruning](https://arxiv.org/pdf/2501.12570) | arXiv 2025.1.29 | [code](https://github.com/StarDewXXX/O1-Pruner) | Two observations: 1) the relationship between length and accuracy varies significantly across problems, and high accuracy often persists in shorter lengths; 2) there is a consistent trend where shorter response lengths are associated with higher average accuracy rates. Use pre-sampling for each question and then use RL-style fine-tuning to encourage the model to generate shorter reasoning processes.  |
+| [ThinkPrune: Pruning Long Chain-of-Thought of LLMs via Reinforcement Learning](https://arxiv.org/pdf/2504.01296) | arXiv 2025.4.2 | [code](https://github.com/UCSB-NLP-Chang/ThinkPrune) | Following the RL algorithm of DeepSeek-R1, add extra length reward/penalty to clip the CoT during training.  |
+
 
 ## Inference-time CoT Compression
 
@@ -83,6 +85,7 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Entropy-based Exploration Conduction for Multi-step Reasoning](https://arxiv.org/pdf/2503.15848) | arXiv 2025.3.20 | x | Use entropy of reasoning steps to select whether to deepen, expand or stop exploration. |
 | [Efficient Long-Decoding Inference with Reasoning-Aware Attention Sparsity](https://arxiv.org/pdf/2502.11147) | arXiv 2025.2.16 | x | Identify a new attention pattern during the decoding stage of reasoning tasks, which is similar to KV cache compression like H2O. |
 | [$\phi$-Decoding: Adaptive Foresight Sampling for Balanced Inference-Time Exploration and Exploitation](https://arxiv.org/pdf/2503.13288) | arXiv 2025.3.17 | [code](https://github.com/xufangzhi/phi-Decoding) |  |
+| [Dynamic Early Exit in Reasoning Models](https://arxiv.org/pdf/2504.15895) | arXiv 2025.4.22 | [code](https://github.com/iie-ycx/DEER) | First chunk the thought based on "Wait" token. Then, generate "trial answer" and evaluate the confidence with "trial answer" logits to determine whether to early exit. |
 
 ## Analysis of CoT Compression 
 
@@ -97,3 +100,4 @@ I will actively maintain the repo for our brainstorming in this field.
 | [Learn to Explain: Multimodal Reasoning via Thought Chains for Science Question Answering](https://arxiv.org/pdf/2209.09513) | NeurIPS 2022 | [code](https://scienceqa.github.io) | A benchmark of Science Question Answering (ScienceQA) that consists of multimodal multiple choice questions with annotations of answers with lectures and explanations. |
 | [Interleaved-Modal Chain-of-Thought](https://arxiv.org/pdf/2411.19488) | arXiv 2025.3.17 | [code](https://github.com/jungao1106/ICoT) | Generate interleaved-modal chain-of-thought (ICoT) with paired visual and textual information. Consider that the immediate visual information is usually part of the input image rather than generating extra image, and use an attention-based method to select a few visual tokens. |
 | [Efficient Reasoning with Hidden Thinking](https://arxiv.org/pdf/2501.19201) | arXiv 2025.1.31 | [code](https://github.com/shawnricecake/Heima) | For Multimodal LLMs, design a Encoder to condense each intermediate CoT into a single thinking token. Also design a Decoder to reconstruct reasoning processes that closely resemble the original CoTs. |
+| [GoT: Unleashing Reasoning Capability of Multimodal Large Language Model for Visual Generation and Editing](https://arxiv.org/pdf/2503.10639) | arXiv 2025.3.13 | [code](https://github.com/rongyaofang/GoT) | Transform input prompts into explicit reasoning chains with coordinates for semantic-spatial reasoning. |
